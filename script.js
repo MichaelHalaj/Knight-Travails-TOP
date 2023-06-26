@@ -13,6 +13,7 @@ let printPath = (node) => {
 };
 
 function knightMoves(src, dest) {
+    console.log(`knightMoves([${src}], [${dest}])`);
     const board = createChessBoard();
     const n = board.length - 1;
     let q = [];
