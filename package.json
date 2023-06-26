@@ -1,0 +1,21 @@
+{
+  "name": "knight-travails-top",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelHalaj/Knight-Travails-TOP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelHalaj/Knight-Travails-TOP/issues"
+  },
+  "homepage": "https://github.com/MichaelHalaj/Knight-Travails-TOP#readme"
+}
