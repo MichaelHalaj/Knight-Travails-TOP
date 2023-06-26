@@ -33,6 +33,7 @@ function knightMoves(src, dest) {
             if(position[0] === dest[0] && position[1] === dest[1]) {
                 console.log(`You made it in ${moves} moves! Here's your path:`);
                 printPath(parentNode);
+                console.log('\n');
                 return;
             }
             dir.forEach(coordinate => {
@@ -53,7 +54,6 @@ function knightMoves(src, dest) {
 }
 knightMoves([0,0],[1,2]);
 knightMoves([3,3], [4,3]);
-
 knightMoves([0,0],[3,3]);
 knightMoves([3,3],[0,0]);
 
